@@ -28,7 +28,7 @@ namespace SolutionColor
             {
                 throw new ArgumentNullException("package");
             }
-
+            
             OleMenuCommandService commandService = ((IServiceProvider)package).GetService(typeof(IMenuCommandService)) as OleMenuCommandService;
             if (commandService != null)
             {
