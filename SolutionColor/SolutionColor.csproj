@@ -127,6 +127,8 @@
     </Content>
     <VSCTCompile Include="..\SharedFiles\SolutionColorPackage.vsct">
       <Link>SolutionColorPackage.vsct</Link>
+	  <ResourceName>Menus.ctmenu</ResourceName>
+	  <SubType>Designer</SubType>
     </VSCTCompile>
   </ItemGroup>
   <Import Project="..\Common\Common.projitems" Label="Shared" />
