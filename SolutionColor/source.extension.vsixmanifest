@@ -5,7 +5,7 @@
         <DisplayName>SolutionColor</DisplayName>
         <Description xml:space="preserve">Pick a different titlebar color depending on the current sln file you're working on.</Description>
         <License>license.txt</License>
-        <Icon>Resources\icon.png</Icon>
+        <Icon>icon.png</Icon>
         <PreviewImage>screenshot.png</PreviewImage>
     </Metadata>
     <Installation>
