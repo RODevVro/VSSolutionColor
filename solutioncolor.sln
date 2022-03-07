@@ -7,20 +7,37 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionColor", "solutionco
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Common", "Common\Common.shproj", "{3AFDF03E-E9F8-4E23-AE0A-7865834958EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionColor2022", "SolutionColor2022\SolutionColor2022.csproj", "{506EE55C-6B45-4C47-89A5-C753FE98617C}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Common\Common.projitems*{3afdf03e-e9f8-4e23-ae0a-7865834958ec}*SharedItemsImports = 13
 		Common\Common.projitems*{43d6ad8c-3b27-4b6f-af3f-4c9b9e70ddaa}*SharedItemsImports = 4
+		Common\Common.projitems*{506ee55c-6b45-4c47-89a5-c753fe98617c}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{43D6AD8C-3B27-4B6F-AF3F-4C9B9E70DDAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{43D6AD8C-3B27-4B6F-AF3F-4C9B9E70DDAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43D6AD8C-3B27-4B6F-AF3F-4C9B9E70DDAA}.Debug|x86.ActiveCfg = Debug|x86
+		{43D6AD8C-3B27-4B6F-AF3F-4C9B9E70DDAA}.Debug|x86.Build.0 = Debug|x86
 		{43D6AD8C-3B27-4B6F-AF3F-4C9B9E70DDAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43D6AD8C-3B27-4B6F-AF3F-4C9B9E70DDAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43D6AD8C-3B27-4B6F-AF3F-4C9B9E70DDAA}.Release|x86.ActiveCfg = Release|x86
+		{43D6AD8C-3B27-4B6F-AF3F-4C9B9E70DDAA}.Release|x86.Build.0 = Release|x86
+		{506EE55C-6B45-4C47-89A5-C753FE98617C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{506EE55C-6B45-4C47-89A5-C753FE98617C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{506EE55C-6B45-4C47-89A5-C753FE98617C}.Debug|x86.ActiveCfg = Debug|x86
+		{506EE55C-6B45-4C47-89A5-C753FE98617C}.Debug|x86.Build.0 = Debug|x86
+		{506EE55C-6B45-4C47-89A5-C753FE98617C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{506EE55C-6B45-4C47-89A5-C753FE98617C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{506EE55C-6B45-4C47-89A5-C753FE98617C}.Release|x86.ActiveCfg = Release|x86
+		{506EE55C-6B45-4C47-89A5-C753FE98617C}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

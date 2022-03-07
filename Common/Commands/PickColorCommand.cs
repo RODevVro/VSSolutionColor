@@ -2,6 +2,8 @@
 using System.ComponentModel.Design;
 using Microsoft.VisualStudio.Shell;
 using System.Windows.Forms;
+using Microsoft.Internal.VisualStudio.PlatformUI;
+using DialogResult = System.Windows.Forms.DialogResult;
 
 namespace SolutionColor
 {

@@ -9,6 +9,7 @@ using System.Windows.Interop;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+
 using Task = System.Threading.Tasks.Task;
 
 namespace SolutionColor
