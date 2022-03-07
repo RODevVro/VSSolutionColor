@@ -67,6 +67,15 @@
       <Link>Key.snk</Link>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="..\SharedFiles\toolbarIcons.png">
+      <Link>toolbarIcons.png</Link>
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
@@ -109,10 +118,12 @@
     <Content Include="..\SharedFiles\license.txt">
       <Link>license.txt</Link>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="..\SharedFiles\screenshot.png">
       <Link>screenshot.png</Link>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <VSCTCompile Include="..\SharedFiles\SolutionColorPackage.vsct">
       <Link>SolutionColorPackage.vsct</Link>

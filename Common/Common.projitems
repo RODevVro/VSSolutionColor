@@ -19,12 +19,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)VSUtils.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)Resources\icon.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Resources\toolbarIcons.png" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)VSPackage.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
