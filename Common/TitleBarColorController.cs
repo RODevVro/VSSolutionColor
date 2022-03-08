@@ -41,7 +41,7 @@ namespace SolutionColor
                     var windowContentPresenter = VisualTreeHelper.GetChild(window, 0);
                     var rootGrid = VisualTreeHelper.GetChild(windowContentPresenter, 0);
 
-                    newController.titleBarContainer = VisualTreeHelper.GetChild(rootGrid, 0);
+                    newController.titleBarContainer = GetDecendantFirstInLine(rootGrid, 2);
 
                     // Note that this part doesn't work for the VS2019 main windows as there is simply no title text like this.
                     // However docked-out code windows are just like in previous versions.
@@ -63,7 +63,7 @@ namespace SolutionColor
                         newController.mainMenuItemsWrapperControl = GetDecendantFirstInLine(newController.mainMenuControl, 3);
                         if (newController.mainMenuItemsWrapperControl is MenuItem) // Nestedness of the layout changed a bit over different versions;
                             newController.mainMenuItemsWrapperControl = GetDecendantFirstInLine(newController.mainMenuControl, 2);
-
+                    
                         System.Reflection.PropertyInfo propertyInfo = newController.mainMenuControl.GetType().GetProperty(ColorPropertyName);
                         newController.defaultMenuBackgroundValue = propertyInfo.GetValue(newController.mainMenuControl);
                         if (newController.mainMenuItemsWrapperControl != null && VisualTreeHelper.GetChildrenCount(newController.mainMenuItemsWrapperControl) > 0)

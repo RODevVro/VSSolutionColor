@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="SolutionColor2022.d42f3e6a-183b-4c25-ac7d-8481f48ece71" Version="1.0" Language="en-US" Publisher="Vincent ROQUELAURE" />
+        <Identity Id="SolutionColor2022.d42f3e6a-183b-4c25-ac7d-8481f48ece71" Version="1.6.2" Language="en-US" Publisher="Vincent R." />
         <DisplayName>SolutionColor2022</DisplayName>
         <Description xml:space="preserve">Pick a different titlebar color depending on the current sln file you're working on.</Description>
         <License>license.txt</License>
